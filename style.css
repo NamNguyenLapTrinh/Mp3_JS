@@ -1,0 +1,201 @@
+* {
+    padding: 0;
+    margin:0 ;
+    box-sizing: inherit;
+}
+
+#app {
+ 
+
+}
+.app__playMusic {
+    width: 400px;
+    margin: 0 auto;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0,0.2);
+    margin-top: 10px;
+}
+.play-music {
+    position: fixed;
+    top: 0;
+    width: 400px;
+    background-color:#fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0,0.2);
+
+}
+
+.header {
+    text-align: center;
+}
+.header-now {
+    color: red;
+   text-decoration: underline;
+}
+.header-music-now {
+    
+
+}
+
+/* CD */
+.cd {
+    margin: 10px 0;
+    padding: 0 10px;
+    
+}
+.cd-img {
+    width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
+    /* overflow: hidden; */
+    
+}
+
+.cd-img img {
+    width: 100%;
+    border-radius: 50%;
+    
+
+}
+
+
+.control {
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    margin-top: 10px;
+
+
+}
+
+.block {
+    /* display: none; */
+    padding: 10px;
+    background-color: rgb(232, 103, 223);
+    border-radius: 50%;
+
+}
+
+.none {
+    display: none;
+    padding: 10px;
+    background-color: rgb(232, 103, 223);
+    border-radius: 50%;
+    width: 16px;
+    margin: 0 auto;
+
+}
+
+.play .none {
+    display: block;
+}
+
+.play .block {
+    display: none;
+}
+
+
+
+.control-items {
+    width: 20%;
+    margin: 10px 0;
+    text-align: center;
+
+}
+
+.rotate.red {
+    color: red;
+}
+
+.random.randomred {
+    color: red;
+}
+.randomred i {
+    color: red;
+}
+
+.next {
+    padding: 10px;
+}
+
+#input {
+    width: 100%;
+    -webkit-appearance: none;
+    background-color: #666;
+    height: 6px;
+    opacity: 0.6;
+    
+}
+
+.time-now {
+    font-size: 10px;
+
+}
+
+.time-big {
+    position: relative;
+    left:85% ;
+    font-size: 10px;
+}
+#volume {
+    -webkit-appearance: none;
+    height: 6px;
+    background-color:#666;
+    width: 20%;
+    position: relative;
+    left: 10px;
+}
+
+
+/* end CD */
+
+/* container */
+
+.container {
+    padding: 10px 0;
+    background-color: rgba(245, 234, 234, 0.5);
+    margin-top:360px ;
+}
+
+.list {
+    display: flex;
+    justify-content:space-between;
+    height: 50px;
+    margin: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0,0.2);
+    border-radius: 2px;
+    padding: 8px;
+    align-items: center;
+    
+}
+
+.list.listRed {
+    color: chocolate;
+}
+
+.list:active{
+    opacity: 0.6;
+}
+
+.list-items {
+
+}
+.list-img {
+    height: 50px;
+    width: 50px;
+}
+
+
+
+.list-img img {
+    height: 100%;
+    border-radius: 50%;
+    width: 100%;
+}
+
+.list-names {
+    flex: 2;
+    padding: 0 10px;
+    
+}
+
+
+

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Music Nam Nguyen</title>
+</head>
+
+<body>
+    <div id="app">
+        <div class="app__playMusic">
+            <div class="play-music">
+                <div class="header">
+                    <h4 class="header-now">Now Playing</h4>
+                    <h2 class="header-music-now">Lac Troi</h2>
+                </div>
+    
+                <div class="cd">
+                    <div class="cd-img">
+                        <img class="cd__img" src="./assets/IMG/img1.jpeg" alt="">
+                    </div>
+                    <div class="control">
+                        <div class="control-items">
+                            <i class="fas fa-redo rotate"></i>
+                        </div>
+    
+                        <div class="control-items">
+                            <i class="fas fa-step-backward Comeback"></i>
+                        </div>
+    
+                        <div class="control-items plays ">
+                            <i class="fas fa-play block contro-item__play "></i>
+                            <i class="fas fa-pause none contro-item__pause "></i>
+                        </div>
+    
+                        <div class="control-items">
+                            <i class="fas fa-step-forward next"></i>
+                        </div>
+    
+                        <div class="control-items randoms ">
+                            <i class="fas fa-random random"></i>
+                        </div>                    
+    
+                    </div>
+                    <input type="range" id="volume" value="" min="10" max="100">
+                    <input type="range" id="input" value="0" step="1" min="0" max="100">
+                    <span class="time-now">00.00</span>
+                    <span class="time-big">04.00</span>
+                    <audio id="audio" src=""></audio>
+
+            </div>
+            </div>
+
+            <!-- play List -->
+            <div class="container">
+                <div class="list">
+                        <div class="list-img">
+                            <img src="./assets/IMG/quangha.jpeg" alt="">
+                        </div>
+                        <div class="list-names">
+                            <h3 class="name-music">Lac Troi</h3>
+                            <span class="name-songger">Bao Anh</span>
+                        </div>
+                        <div class="list-items">
+                            <i class="fas fa-ellipsis-h"></i>
+                        </div>
+
+                   
+
+                </div>
+                
+            </div>
+        </div>
+
+        
+
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
+
+
+
+
